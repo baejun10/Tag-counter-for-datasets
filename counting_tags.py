@@ -41,8 +41,7 @@ def main():
         cap_paths = glob.glob(os.path.join(
             args.dir, "**/*." + args.extension), recursive=True)
     else:
-        cap_paths = glob.glob(os.path.join(args.dir, "*" + args.extension))
-
+        cap_paths = glob.glob(os.path.join(args.dir, "*." + args.extension))
     assert len(cap_paths) > 0, 'file does not exist'
 
     tags_table = pd.DataFrame({'tag': [], 'count': []})
@@ -52,6 +51,7 @@ def main():
         if args.verbose:
             print(cap_path)
         process(read_caption(cap_path), tags_table)
+    print(f'Used {len(cap_paths)} caption files')
     print(tags_table)
     save(tags_table)
 
