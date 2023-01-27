@@ -7,7 +7,10 @@
 
 ## 사용법
 코드를 다운 받은 후, 같은 폴더에 있는 bat 파일 코드의 옵션 수정 후 bat 파일 실행
-
+### 예시
+```
+python counting_tags.py --dir="C:\Users\dir\folder" --verbose --extension=caption --output="C:" --recursive
+```
 ## 옵션
 --dir 파일을 읽을 경로 입력 (필수)
 
