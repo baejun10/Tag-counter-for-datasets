@@ -24,7 +24,7 @@ def process(tags, tags_table):
         ttag = (tags_table['tag'] == tag)
         if ttag.any():
             tt = tags_table.loc[ttag,'count']
-            tt = tt + 1
+            tags_table.loc[ttag,'count'] = tt + 1
         else:
             tags_table.loc[len(tags_table)] = [tag, 1]
     # print(tags_table)
