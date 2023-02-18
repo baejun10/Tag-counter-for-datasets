@@ -24,4 +24,5 @@ python counting_tags.py --dir="C:\Users\dir\folder" --verbose --extension=captio
 
 --processes 병렬 프로세스로 csv 파일 읽기 (어차피 파일 읽기는 빨라서 별 차이는 안나는듯?)
 
+## 
 더 좋은 최적화 코드가 있다면 PR 넣어주길 바람
