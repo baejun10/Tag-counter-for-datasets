@@ -27,4 +27,5 @@ python counting_tags.py --dir="C:\Users\dir\folder" --verbose --extension=captio
 ## 병렬 프로세싱 최적화 적용됨
 
 r5-5600u 프로세서로 184,896개의 파일에서 태그 카운팅 76.347 sec 소요됨
+
 ![image](https://user-images.githubusercontent.com/14136511/227281258-a05f1b69-0f41-4624-989b-f6fd7a2bffc5.png)
