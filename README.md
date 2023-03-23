@@ -24,5 +24,7 @@ python counting_tags.py --dir="C:\Users\dir\folder" --verbose --extension=captio
 
 --processes 병렬 프로세스로 csv 파일 읽기 (어차피 파일 읽기는 빨라서 별 차이는 안나는듯?)
 
-## 
-더 좋은 최적화 코드가 있다면 PR 넣어주길 바람
+## 병렬 프로세싱 최적화 적용됨
+
+r5-5600u 프로세서로 184,896개의 파일에서 태그 카운팅 76.347 sec 소요됨
+![image](https://user-images.githubusercontent.com/14136511/227281258-a05f1b69-0f41-4624-989b-f6fd7a2bffc5.png)
