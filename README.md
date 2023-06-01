@@ -22,7 +22,7 @@ python counting_tags.py --dir="C:\Users\dir\folder" --verbose --extension=captio
 
 --output 태그 카운팅 후, csv 파일을 저장할 경로 지정(지정 안할 경우 dir 폴더에 저장)
 
---processes 병렬 프로세스로 csv 파일 읽기 (어차피 파일 읽기는 빨라서 별 차이는 안나는듯?)
+--processes 병렬 프로세스로 카운팅
 
 ## 병렬 프로세싱 최적화 적용됨
 
